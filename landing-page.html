@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Untitled Document</title>
+
+
+</head>
+
+<body>
+		<style>
+		/* @import 'https://www.costco.com/wcsstore/RWDStaticAssets/css/rwd.app.min.css'; */ /*FOR TESTING ONLY*/ 
+		.left {
+			text-align: left;
+		}
+
+		.right {
+			text-align: right;
+		}
+
+		.lphero {
+			width: 100%;
+			height: 400px;
+			max-width: 2000px;
+			margin: 0 auto;
+			background-position: center right;
+			background-size: cover;
+		}
+
+		.businessprinting {
+			background-image: url(hero-businessprinting.jpg);
+		}
+
+		.printcopy {
+			background-image: url(hero-printcopy.jpg);
+		}
+
+		.details {
+			width: 90%;
+			max-width: 1000px;
+			margin: 0 auto;
+		}
+
+		.detail {
+			height: auto;
+			margin: 20px auto;
+			text-align: center;
+			display: inline-block;
+		}
+
+		.row1 {
+			width: 100%;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.row-1-4 {
+			width: 24.5%;
+		}
+
+		.row-1-3 {
+			width: 30%;
+		}
+
+		.row-2-3 {
+			width: 60%;
+		}
+
+		.cta-shopnow {
+			width: 100%;
+			max-width: 500px;
+			margin: 0 auto;
+		}
+
+		.lplogo {
+			width: 325px;
+			margin: 0 auto;
+			height: 100px;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		.lplogo img {
+			margin: 0 auto;
+			width: 325px;
+		}
+
+		.logo-businessprinting {
+			left: 50%;
+			top: 45%;
+			transform: translateX(-100%);
+		}
+
+		.logo-printcopy {
+			margin: 0 0 0 60px;
+			;
+		}
+
+		.locationheader {
+			background: #3071a9;
+			color: #fff!important;
+		}
+
+		.locationheader h2 {
+			margin-left: 20px;
+			color: #fff!important;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		@media screen and (max-width: 1000px) {
+			.row-1-4, .row-1-3, .row-2-3 {
+				width: 100%;
+			}
+			.logo-businessprinting, .logo-printcopy {
+			left: 0;
+			top: 45%;
+			transform: translateX(0);
+			margin: 0 auto;
+		}
+			.left {
+				text-align: center;
+			}
+			hr {
+				visibility: hidden;
+			}
+		}
+	</style>
+	<!-- Costco Business Printing -->
+	<div class="lphero businessprinting">
+		<div class="lplogo logo-businessprinting" style="vertical-align: middle;">
+			<img src="logo-businessprinting.png" alt="Costco Business Printing">
+		</div>
+	</div>
+	<h2 style="width: 90%; max-width: 1000px; text-align: center; margin: 10px auto;">Order Online</h2>
+	<div class="details row4">
+		<div class="detail row-1-4">
+			<img src="ic-quality.png" alt="Commitment to Quality">
+			<h3>A Commitment to Quality</h3>
+			<p>Premium paper and materials provide a distinctive look.</p>
+		</div>
+		<div class="detail row-1-4">
+			<img src="ic-delivery.png" alt="Flexible Delivery">
+			<h3>Flexible Delivery</h3>
+			<p>Delivered in 5 – 7 business days to your local Costco Warehouse or delivered direct to your door.</p>
+		</div>
+		<div class="detail row-1-4">
+			<img src="ic-value.png" alt="Great Value">
+			<h3>Great Value</h3>
+			<p>We are committed to offering the best value to our members.
+				<br>&nbsp;</p>
+		</div>
+		<div class="detail row-1-4">
+			<img src="ic-guarantee.png" alt="Costco Guarantee">
+			<h3>Costco Guarantee</h3>
+			<p>Satisfaction guaranteed or we'll replace or refund your order.
+				<br>&nbsp;</p>
+		</div>
+	</div>
+	<div class="details row1">
+		<p style="font-weight: bold">Business Cards | Banners | Postcards | Flyers | Brochures | Envelopes | Letterhead</p>
+	</div>
+	<div class="cta-shopnow">
+		<a href="http://costcobusinessprinting.com/?src=lp-printandcopy">
+			<input class="btn btn-primary btn-lg btn-block" title="Shop Now" value="Shop Now">
+		</a>
+	</div>
+	<!-- END Costco Business Printing -->
+
+	<hr class="desktop" />
+
+	<!-- Costco Print & Copy -->
+	<div class="lphero printcopy">
+		<div class="lplogo logo-printcopy" style="vertical-align: middle;">
+			<img src="logo-printcopy.png" alt="Costco Print and Copy">
+		</div>
+	</div>
+	<h2 style="width: 90%; max-width: 1000px; text-align: center; margin: 10px auto;">At your local Print &amp; Copy counter</h2>
+	<div class="details row3">
+		<div class="detail row-1-3">
+			<img src="ic-copy.png" alt="Copy">
+			<h3>Copies</h3>
+			<p>Color copies just 29¢ each*
+				<br> Black &amp; white copies just 3.5¢ each*
+				<br>
+				<div style="font-style: italic">*Volume Pricing Available</div>
+			</p>
+		</div>
+		<div class="detail row-1-3">
+			<img src="ic-businesscards.png" alt="Business Cards">
+			<h3>Business Cards</h3>
+			<p>Make a lasting impression using professional cards with your logo.</p>
+		</div>
+		<div class="detail row-1-3">
+			<img src="ic-businessprinting.png" alt="Business Printing">
+			<h3>Business Printing</h3>
+			<p>Represent and support your business with brochurs, letterhead and more.</p>
+		</div>
+	</div>
+	<div class="details row3">
+		<div class="detail row-1-3 co">
+			<img src="ic-largeformat.png" alt="Large-Format Printing">
+			<h3>Large-Format Printing</h3>
+			<p>Go big! Get your promotional material printed on a grand scale.</p>
+		</div>
+		<div class="detail row-1-3">
+			<img src="ic-promotionalproducts.png" alt="Promotional Products">
+			<h3>Great Value</h3>
+			<p>We are committed to offering the best value to our members.</p>
+		</div>
+		<div class="detail row-1-3">
+			<img src="ic-binding.png" alt="Finishing and Binding">
+			<h3>Finishing &amp; Binding</h3>
+			<p>Once your job is produced, we'll put it in the format you need.</p>
+		</div>
+	</div>
+	<!-- Costco Print & Copy Locations-->
+	<div style="margin-top: 30px;"></div>
+	<div class="lplocations">
+		<div class="locationheader details row3">
+			<div class="detail row-2-3">
+				<h2 class="left" style="vertical-align: text-top;">Costco Business Center</h2>
+			</div>
+			<div class="detail row-1-3">
+				<p class="left">Monday - Friday: 7 a.m. to 6 p.m.
+					<br> Saturday: 7 a.m. to 4 p.m.
+					<br> Sunday: Closed</p>
+			</div>
+		</div>
+		<div class="lplocations details row3">
+			<div class="detail row-1-3">
+				<p class="left">Phoenix, AZ
+					<br> 3801 N. 33rd Ave.
+					<br> (480) 293-2128
+					<br> w827pcc@costco.com </p>
+			</div>
+			<div class="detail row-1-3">
+				<p class="left">Morrow, GA
+					<br> 1700 Mount Zion Road
+					<br> (678) 201-0001
+					<br> w579pcc@costco.com </p>
+			</div>
+			<div class="detail row-1-3">
+				<p class="left">Las Vegas, NV
+					<br> 222 S. MLK. Blvd.
+					<br> (702) 366-7114
+					<br> w563pcc@costco.com </p>
+			</div>
+		</div>
+		<div class="lplocations details row3">
+			<div class="detail row-1-3">
+				<p class="left">Commerce, CA
+					<br> 6333 Telegraph Road
+					<br> (323) 767-2651
+					<br> w569pcc@costco.com </p>
+			</div>
+			<div class="detail row-1-3">
+				<p class="left">Salt Lake City, UT
+					<br> 1818 300 West
+					<br> (801) 485-9715
+					<br> w113pcc@costco.com
+				</p>
+			</div>
+			<div class="detail row-1-3">
+				<p class="left">Fife, WA
+					<br> 3900 20th St. E.
+					<br> (253) 719-1993
+					<br> w767pcc@costco.com </p>
+			</div>
+		</div>
+		<div class="lplocations details row3">
+			<div class="detail row-1-3">
+				<p class="left">Lynnwood, WA
+					<br> 19105 Hwy. 99
+					<br> (425) 640-7736
+					<br> w115pcc@costco.com </p>
+			</div>
+		</div>
+
+		<div class="locationheader details row3">
+			<div class="detail row-2-3">
+				<h2 class="left" style="vertical-align: text-top;">Costco Wholesale</h2>
+			</div>
+			<div class="detail row-1-3">
+				<p class="left">Monday-Friday: 10 a.m. to 8:30 p.m.
+					<br> Saturday: 9:30 a.m. to 6 p.m.
+					<br> Sunday: 10 a.m. to 6 p.m.</p>
+			</div>
+		</div>
+		<div class="lplocations details row3">
+			<div class="detail row-1-3">
+				<p class="left">Seattle, WA
+					<br> 4401 Fourth Ave. S.
+					<br> (206) 447-9239
+					<br> w001pcc@costco.com </p>
+			</div>
+			<div class="detail row-1-3">
+				<p class="left">Tukwila, WA
+					<br> 400 Costco Drive
+					<br> (206) 575-0730
+					<br> w006pcc@costco.com </p>
+			</div>
+		</div>
+	</div>
+	<!-- END Costco Print & Copy Locations-->
+	<!-- END Costco Print & Copy -->
+
+</body>
+
+</html>
